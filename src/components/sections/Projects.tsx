@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLinkIcon, PlayIcon, XIcon } from "lucide-react";
+import { ExternalLinkIcon, XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Projects: React.FC = () => {
@@ -53,9 +53,9 @@ const Projects: React.FC = () => {
     }
   ];
 
-  const openVideo = (videoUrl: string) => {
-    setActiveVideo(videoUrl);
-  };
+  // const openVideo = (videoUrl: string) => {
+  //   setActiveVideo(videoUrl);
+  // };
 
   const closeVideo = () => {
     setActiveVideo(null);
